@@ -1,0 +1,33 @@
+{
+  "userSays": [],
+  "id": "9cdf5015-aacf-44c5-8017-7c0a36b303dd",
+  "name": "Default Fallback Intent",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Sorry, I didn\u0027t get that.",
+            "I\u0027m afraid I don\u0027t understand."
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "I am trying hard to learn and understand. Can you try saying it in a different way?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

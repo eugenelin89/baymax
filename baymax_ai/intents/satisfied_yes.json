@@ -1,0 +1,58 @@
+{
+  "userSays": [
+    {
+      "id": "cf4cb123-f41b-48c3-b5b3-7213b1932562",
+      "data": [
+        {
+          "text": "yep"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "365c323b-5f3e-4fa6-bcb8-d8866783da30",
+      "data": [
+        {
+          "text": "yeah"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "945a202a-4778-464d-87c1-36c008bf8666",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6ff72a6d-efa1-449e-b448-e2e9e154a06d",
+  "name": "satisfied_yes",
+  "auto": true,
+  "contexts": [
+    "satisfied"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Good-bye"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

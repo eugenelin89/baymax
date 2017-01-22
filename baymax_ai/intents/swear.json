@@ -1,0 +1,96 @@
+{
+  "userSays": [
+    {
+      "id": "91eaeb3d-937f-4fea-aec2-c501e2161fec",
+      "data": [
+        {
+          "text": "fuck",
+          "alias": "swearword",
+          "meta": "@swearword",
+          "userDefined": false
+        },
+        {
+          "text": " yourself"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1b032c24-8302-4b26-902f-e3519e4c0165",
+      "data": [
+        {
+          "text": "fucked",
+          "alias": "swearword",
+          "meta": "@swearword",
+          "userDefined": false
+        },
+        {
+          "text": " up"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "baadd5dd-c570-4fba-af83-347068687546",
+      "data": [
+        {
+          "text": "shit",
+          "alias": "swearword",
+          "meta": "@swearword",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "78f0b699-547b-4d3b-9ec9-cf4ba37e79ba",
+      "data": [
+        {
+          "text": "fuck",
+          "alias": "swearword",
+          "meta": "@swearword",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8c63d92a-acac-43cf-8a0a-d600a3526abe",
+  "name": "swear",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sense_trouble",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@swearword",
+          "name": "swearword",
+          "value": "$swearword",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I heard a sound of distress. What seems to be the trouble?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

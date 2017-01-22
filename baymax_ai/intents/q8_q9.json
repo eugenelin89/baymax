@@ -1,0 +1,107 @@
+{
+  "userSays": [
+    {
+      "id": "ee7f6b1a-2e5c-419b-ac39-0c131f37d0a1",
+      "data": [
+        {
+          "text": "everyday",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "74351a06-0a03-4b95-9368-b5c13b0c2e63",
+      "data": [
+        {
+          "text": "a week",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dc47f69c-d826-4d8e-84a7-870bfdf0a6fd",
+      "data": [
+        {
+          "text": "few days",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "32d9af03-a4ce-4a68-af11-373ada86817a",
+      "data": [
+        {
+          "text": "never",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2ea8afcd-f367-41bf-b7df-d7441541aca2",
+  "name": "q8_q9",
+  "auto": true,
+  "contexts": [
+    "q8"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "q8",
+      "affectedContexts": [
+        {
+          "name": "q9",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@ans",
+          "name": "ans",
+          "value": "$ans",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        },
+        {
+          "title": "(q9) Over the last 2 weeks, how often have you been bothered by thoughts that you would be better off dead, or of hurting yourself?",
+          "replies": [
+            "never",
+            "few days",
+            "a week",
+            "everyday"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "q9"
+    }
+  ]
+}

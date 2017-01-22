@@ -1,0 +1,47 @@
+{
+  "userSays": [
+    {
+      "id": "8bd7abb6-6d3e-4695-995b-d86dd5f6a097",
+      "data": [
+        {
+          "text": "no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "93f20b32-f411-4a24-8973-6ee4b5702745",
+  "name": "satisfied-no",
+  "auto": true,
+  "contexts": [
+    "satisfied"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "hug",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "title": "Would you like a hug?",
+          "replies": [
+            "yes",
+            "no"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

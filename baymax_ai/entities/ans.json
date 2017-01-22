@@ -1,0 +1,71 @@
+{
+  "id": "00c9af67-d964-4547-9c0b-2b2e62d6a089",
+  "name": "ans",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "never",
+      "synonyms": [
+        "never",
+        "not at all",
+        "0 day"
+      ]
+    },
+    {
+      "value": "few days",
+      "synonyms": [
+        "few days",
+        "sometimes",
+        "a few days",
+        "some days",
+        "1 day",
+        "2 days",
+        "3 days",
+        "4 days",
+        "5 days",
+        "6 days",
+        "2 or 3 days",
+        "3 or 4 days",
+        "4 or 5 days",
+        "5 or 6 days",
+        "1 to 2 days",
+        "2 to 3 days",
+        "2 to 5 days",
+        "3 to 5 days",
+        "less than a week"
+      ]
+    },
+    {
+      "value": "a week",
+      "synonyms": [
+        "7+ days",
+        "more than 7 days",
+        "over 7 days",
+        "a week",
+        "over a week",
+        "about a week",
+        "more than a week",
+        "7 or 8 days",
+        "8 or 9 days",
+        "9 or10 days",
+        "10 or 11 days",
+        "11 or 12 days",
+        "12 or 13 days",
+        "7 to 9 days",
+        "9 to 12 days"
+      ]
+    },
+    {
+      "value": "everyday",
+      "synonyms": [
+        "everyday",
+        "always",
+        "all the time",
+        "2 weeks",
+        "14 days"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

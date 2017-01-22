@@ -1,0 +1,88 @@
+{
+  "userSays": [
+    {
+      "id": "d82a7e2f-2d37-4049-8491-61a745036a69",
+      "data": [
+        {
+          "text": "everyday",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "77490f69-2199-42ba-830c-db18f1241f1c",
+      "data": [
+        {
+          "text": "a week",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e51577f7-6a1d-4c1e-bb51-e952e8f32c74",
+      "data": [
+        {
+          "text": "few days",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "29baa84f-3747-4168-bd89-6de2cefef116",
+      "data": [
+        {
+          "text": "never",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "731f824c-adf7-46a8-adfc-421bd085729a",
+  "name": "q9_ans",
+  "auto": true,
+  "contexts": [
+    "q9"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "q9",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@ans",
+          "name": "ans",
+          "value": "$ans",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

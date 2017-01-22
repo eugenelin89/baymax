@@ -2,4 +2,4 @@ baymax_firebase/baymax_key.json
 baymax_firebase/.gitignore
 baymax_fraser/.gitignore
 *.swp
-
+.DS_Store

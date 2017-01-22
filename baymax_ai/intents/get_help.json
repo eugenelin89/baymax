@@ -1,0 +1,109 @@
+{
+  "userSays": [
+    {
+      "id": "c86cf39b-2e8d-4c65-94c6-f29b5ddbc569",
+      "data": [
+        {
+          "text": "nothing"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "34095e9f-2b67-41fc-ab33-03dfcce61205",
+      "data": [
+        {
+          "text": "get lost"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6ea361d9-3b3e-4961-b2e0-13a0fc727b84",
+      "data": [
+        {
+          "text": "sure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "db8a2c3f-138a-4297-ac84-536c549f86ab",
+      "data": [
+        {
+          "text": "whatever"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "55077de6-fcb9-4a88-8183-2aaed6939824",
+      "data": [
+        {
+          "text": "neh"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3cf3ba2a-a78c-4983-a2a2-b6557379ea1c",
+      "data": [
+        {
+          "text": "ok"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e3d859df-339b-4583-bfa1-3fd6714c7013",
+      "data": [
+        {
+          "text": "fine"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "fea3d420-94a0-4453-82ab-f3fe50555159",
+  "name": "get_help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "help",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Are you feeling sad?"
+        },
+        {
+          "title": "I would love to help you out! But first, may I ask some questions?",
+          "replies": [
+            "Ok",
+            "Go away"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

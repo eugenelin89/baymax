@@ -1,0 +1,47 @@
+{
+  "userSays": [
+    {
+      "id": "a8f4cb59-c609-4173-84dd-0c42906c3d46",
+      "data": [
+        {
+          "text": "never"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "525eb816-8d00-4150-a554-2f0ebe9be9ee",
+  "name": "z_question3-never",
+  "auto": true,
+  "contexts": [
+    "question3"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "question3",
+          "lifespan": 5
+        },
+        {
+          "name": "question4",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Question 4 question"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

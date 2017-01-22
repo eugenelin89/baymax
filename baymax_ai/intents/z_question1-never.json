@@ -1,0 +1,91 @@
+{
+  "userSays": [
+    {
+      "id": "c6b63faf-6f3b-40c8-9456-52152ed89622",
+      "data": [
+        {
+          "text": "0 day",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1f064885-babc-43b6-8c0a-c434cac251e0",
+      "data": [
+        {
+          "text": "Not at all"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c9676074-58f4-487f-a82a-a6b206edc16b",
+      "data": [
+        {
+          "text": "Never"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "832a8192-7bcc-40e0-964a-29f48ba11d19",
+  "name": "z_question1-never",
+  "auto": true,
+  "contexts": [
+    "question1"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "question1",
+          "lifespan": 5
+        },
+        {
+          "name": "question2",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "name": "q1_score",
+          "value": "0"
+        },
+        {
+          "name": "q1_shaded",
+          "value": "0"
+        },
+        {
+          "dataType": "@sys.duration",
+          "name": "duration",
+          "value": "$duration",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "title": "Over the last 2 weeks, how often have you been feeling down, depressed, or hopeless?",
+          "replies": [
+            "Never",
+            "Few days",
+            "7+ days",
+            "Everyday"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

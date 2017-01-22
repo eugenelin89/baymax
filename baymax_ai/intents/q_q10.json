@@ -1,0 +1,39 @@
+{
+  "userSays": [],
+  "id": "f0f78cb6-e918-428a-9236-c8cfcab5ba46",
+  "name": "q_q10",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        },
+        {
+          "title": "How difficult have the problems made it for you to do your work, take care of things at home, or get along with other people?",
+          "replies": [
+            "not at all",
+            "somewhat",
+            "very",
+            "extremely"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "q10"
+    }
+  ]
+}

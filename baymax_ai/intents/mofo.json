@@ -1,0 +1,49 @@
+{
+  "userSays": [
+    {
+      "id": "06045d60-4216-4c9b-8a3d-1225cb276c64",
+      "data": [
+        {
+          "text": "mother "
+        },
+        {
+          "text": "fucker",
+          "alias": "swearword",
+          "meta": "@swearword",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a05865ad-aac1-4fa8-a9f2-e330c99acd1a",
+  "name": "mofo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@swearword",
+          "name": "swearword",
+          "value": "$swearword",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I am sorry about your mother..."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

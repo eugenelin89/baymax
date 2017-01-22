@@ -1,0 +1,286 @@
+{
+  "userSays": [
+    {
+      "id": "459f4eb9-c3f2-4e45-abb2-49eb1d93a6d2",
+      "data": [
+        {
+          "text": "9 to 12 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "57c489c5-5fd6-4440-8199-a69329fb8d8f",
+      "data": [
+        {
+          "text": "7 to 9 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "47009679-6f91-462a-8183-d29964165aab",
+      "data": [
+        {
+          "text": "6 or 7 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "6c77632e-8b87-403f-8883-81642e334731",
+      "data": [
+        {
+          "text": "12 or 13 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d7dc55ef-689f-4697-9ff2-40e039cc0b6f",
+      "data": [
+        {
+          "text": "11 or 12 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dfc4e61e-a1a9-4777-9c8f-4c338247cc46",
+      "data": [
+        {
+          "text": "10 or 11 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "483c3512-6842-4902-9a44-32f6bea4455d",
+      "data": [
+        {
+          "text": "9 or 10 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "832b8ccb-a357-4188-8886-4d803baafa12",
+      "data": [
+        {
+          "text": "8 or 9 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bfd4772e-3a88-4cb5-b11f-fc18ccefdda9",
+      "data": [
+        {
+          "text": "7 or 8 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "36273d24-a43e-4d33-95d2-12b38e922982",
+      "data": [
+        {
+          "text": "over "
+        },
+        {
+          "text": "7 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8e4c74e6-5475-48ca-a358-b037e5b217ab",
+      "data": [
+        {
+          "text": "more than "
+        },
+        {
+          "text": "a week",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cb02b0b4-a4cc-4d9f-b48b-7ed4c4ccf276",
+      "data": [
+        {
+          "text": "a week",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0674ffc2-79f5-44fc-b478-ff7511b15014",
+      "data": [
+        {
+          "text": "About "
+        },
+        {
+          "text": "a week",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f2ff3c9e-8807-464b-a314-ff99981ae2d7",
+      "data": [
+        {
+          "text": "over "
+        },
+        {
+          "text": "a week",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a513c658-4569-4ce9-a9b4-de13493805b2",
+      "data": [
+        {
+          "text": "more",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " than "
+        },
+        {
+          "text": "7 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "af1b4e96-e10c-482e-b677-ce1755e65dcd",
+      "data": [
+        {
+          "text": "7+ days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e0cb749a-5601-4374-8b90-0ef86817ed81",
+  "name": "z_question1-7days",
+  "auto": true,
+  "contexts": [
+    "question1"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "question1",
+          "lifespan": 5
+        },
+        {
+          "name": "question2",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "name": "q1_score",
+          "value": "2"
+        },
+        {
+          "name": "q1_shaded",
+          "value": "1"
+        },
+        {
+          "dataType": "@sys.duration",
+          "name": "duration",
+          "value": "$duration",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "title": "(q17d) )Over the last 2 weeks, how often have you been feeling down, depressed, or hopeless?",
+          "replies": [
+            "Never",
+            "Few days",
+            "7+ days",
+            "Everyday"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

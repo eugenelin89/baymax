@@ -1,0 +1,106 @@
+{
+  "userSays": [
+    {
+      "id": "0c91186f-6eb8-4c1a-a95d-98cbfb1c3782",
+      "data": [
+        {
+          "text": "everyday",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "13166d5b-e688-4ae4-bebb-82baf6aa5066",
+      "data": [
+        {
+          "text": "a week",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "488a2e2d-d3ae-4cee-8bf7-c1c6f97a4c5c",
+      "data": [
+        {
+          "text": "never",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "3fd236fe-db40-4f02-bded-6e2026043eec",
+      "data": [
+        {
+          "text": "few days",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a74674e6-2183-4d50-8b65-5115efd47094",
+  "name": "q2_q3",
+  "auto": true,
+  "contexts": [
+    "q2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "q2",
+      "affectedContexts": [
+        {
+          "name": "q3",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@ans",
+          "name": "ans",
+          "value": "$ans"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        },
+        {
+          "title": "(q3) Over the last 2 weeks, how often have you had trouble falling or staying asleep, or sleeping too much?",
+          "replies": [
+            "never",
+            "few days",
+            "a week",
+            "everyday"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "q3"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "userSays": [
+    {
+      "id": "967d28f2-797d-49d6-8396-9b6048b5ea52",
+      "data": [
+        {
+          "text": "whatever"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "825e6597-596b-422d-8b0d-bd5b5cadb89a",
+      "data": [
+        {
+          "text": "don\u0027t hurt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "15f59112-126a-4be6-9a3c-40ffe0606c61",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a0e5b928-db9f-401f-afd6-819039df0d69",
+      "data": [
+        {
+          "text": "sure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0fd8b38c-4a32-4875-83db-8469f8850d9b",
+      "data": [
+        {
+          "text": "ok"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "3168a6ae-fb34-4318-99ce-c8020cb6f879",
+  "name": "q0_q1",
+  "auto": true,
+  "contexts": [
+    "help"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "help",
+      "affectedContexts": [
+        {
+          "name": "q1",
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        },
+        {
+          "title": "(q1) In the past two weeks, how often have you been bothered by little interest or pleasure in doing things?",
+          "replies": [
+            "never",
+            "few days",
+            "a week",
+            "Everyday"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "q1"
+    }
+  ]
+}

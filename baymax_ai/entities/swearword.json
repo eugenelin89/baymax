@@ -1,0 +1,24 @@
+{
+  "id": "209c337b-daed-4e65-9dfe-1a0a431d3eeb",
+  "name": "swearword",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "fuck",
+      "synonyms": [
+        "fuck",
+        "fucker"
+      ]
+    },
+    {
+      "value": "shit",
+      "synonyms": [
+        "shit",
+        "bullshit",
+        "bull shit"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

@@ -1,0 +1,46 @@
+{
+  "userSays": [
+    {
+      "id": "605fe469-31d1-410e-8bba-f878c93f8db7",
+      "data": [
+        {
+          "text": "get lost"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "9ff7a516-687e-4500-a26c-90c3281495fa",
+      "data": [
+        {
+          "text": "go away!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e4667591-ea5e-46db-ada6-44e8952d8f14",
+  "name": "goaway",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Alright... Let me know when you want to chat!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

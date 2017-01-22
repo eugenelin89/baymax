@@ -1,0 +1,107 @@
+{
+  "userSays": [
+    {
+      "id": "12e54615-b8b8-4738-8aca-829bebf4511a",
+      "data": [
+        {
+          "text": "everyday",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0b5e91eb-933b-412b-8731-79de0a7a2f80",
+      "data": [
+        {
+          "text": "a week",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ec6c1da1-9de9-4b1d-b064-5e143324704b",
+      "data": [
+        {
+          "text": "few days",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b61b5ef3-d89b-4cd4-9e27-aeb94eaf0d07",
+      "data": [
+        {
+          "text": "never",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "603517ab-eb32-4abd-afc4-0c743c491191",
+  "name": "q5_q6",
+  "auto": true,
+  "contexts": [
+    "q5"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "q5",
+      "affectedContexts": [
+        {
+          "name": "q6",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@ans",
+          "name": "ans",
+          "value": "$ans",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        },
+        {
+          "title": "(q6) Over the last 2 weeks, how often have you been bothered by feeling bad about yourself - or that you are a failure or have let yourself or your family down?",
+          "replies": [
+            "never",
+            "few days",
+            "a week",
+            "everyday"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "q6"
+    }
+  ]
+}

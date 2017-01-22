@@ -1,0 +1,107 @@
+{
+  "userSays": [
+    {
+      "id": "0684c4d7-52ad-47cd-80bb-63d3313a7653",
+      "data": [
+        {
+          "text": "everyday",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d433b8ae-f56b-43f5-95a7-a06d10441de0",
+      "data": [
+        {
+          "text": "a week",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "17192ca8-218f-4da9-a900-fdf470d31b5b",
+      "data": [
+        {
+          "text": "few days",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fce5b95d-647a-41fe-88b5-c5eb2704f927",
+      "data": [
+        {
+          "text": "never",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4a9049b8-437c-4a29-8b81-9181640168dc",
+  "name": "q6_q7",
+  "auto": true,
+  "contexts": [
+    "q6"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "q6",
+      "affectedContexts": [
+        {
+          "name": "q7",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@ans",
+          "name": "ans",
+          "value": "$ans",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        },
+        {
+          "title": "(q7) Over the last 2 weeks, how often have you been bothered by trouble concentrating on things, such as reading the newspaper or watching television?",
+          "replies": [
+            "never",
+            "few days",
+            "a week",
+            "everyday"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "q7"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "userSays": [
+    {
+      "id": "b48d1ecb-d689-4f56-bf0b-44d7aaa0143c",
+      "data": [
+        {
+          "text": " "
+        },
+        {
+          "text": "1 or 2 days",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8f583dd6-9d56-4298-9a7c-bfa5704b09b3",
+      "data": [
+        {
+          "text": "everyday",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4bd06d3d-4021-4d19-9aa8-594f47d7f25a",
+      "data": [
+        {
+          "text": "a week",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c80d0872-4161-4f2c-b2ff-e5b8110c98e8",
+      "data": [
+        {
+          "text": "few days",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a876eebe-4f19-40f3-b2da-271a99623a14",
+      "data": [
+        {
+          "text": "sometimes",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5e1e844d-bb2c-4f50-9647-0c9dada9fe6e",
+  "name": "q1_q2",
+  "auto": true,
+  "contexts": [
+    "q1"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "q1",
+      "affectedContexts": [
+        {
+          "name": "q2",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@ans",
+          "name": "ans",
+          "value": "$ans",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        },
+        {
+          "title": "(q2) Over the last 2 weeks, how often have you been feeling down, depressed, or hopeless?",
+          "replies": [
+            "never",
+            "few days",
+            "a week",
+            "everyday"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "q2"
+    }
+  ]
+}

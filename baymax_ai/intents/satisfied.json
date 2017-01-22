@@ -1,0 +1,66 @@
+{
+  "userSays": [
+    {
+      "id": "cb5b8141-3542-4d72-ac58-069ed4f4298d",
+      "data": [
+        {
+          "text": "satisfied"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a75b7539-0a34-4c3b-9ccb-6241d3feefa7",
+      "data": [
+        {
+          "text": "satisfied with care"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ff87662a-1ee0-455e-8528-37744eaee23e",
+      "data": [
+        {
+          "text": "satisfied with my care"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e1528f6e-8447-4e90-9473-734d038ebd0f",
+      "data": [
+        {
+          "text": "I\u0027m satisfied with my care"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "cffcb17e-cd68-4990-8643-96b3d4e436f4",
+  "name": "satisfied",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Good-bye."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

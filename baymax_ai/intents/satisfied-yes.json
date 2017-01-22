@@ -1,0 +1,48 @@
+{
+  "userSays": [
+    {
+      "id": "a46dfdaa-cc3f-4aa8-8e50-321f8167dc7e",
+      "data": [
+        {
+          "text": "Ok"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2d9c58d7-276a-4591-b382-9c089c970bca",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d6d080c2-a3ee-43c6-a0ea-f4594963077b",
+  "name": "satisfied-yes",
+  "auto": true,
+  "contexts": [
+    "satisfied"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Good bye."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

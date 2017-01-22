@@ -1,0 +1,118 @@
+{
+  "userSays": [
+    {
+      "id": "5e528c54-e1dc-4b16-9025-518bbadd4d42",
+      "data": [
+        {
+          "text": "14 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "79c4c197-97d4-4f4b-82ca-895633256c50",
+      "data": [
+        {
+          "text": "always"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b4fbb006-3526-4542-8fa6-1bb0d78cc58d",
+      "data": [
+        {
+          "text": "2 weeks",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b1a12d0d-b2c3-4e04-b8e3-cb9d2577e444",
+      "data": [
+        {
+          "text": "All the time"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "71a2960c-3838-4123-845f-86443fbe27d7",
+      "data": [
+        {
+          "text": "Everyday"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1caa594b-3d4d-4169-a1ee-a759f51239f6",
+  "name": "z_question1-everyday",
+  "auto": true,
+  "contexts": [
+    "question1"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "question1",
+          "lifespan": 5
+        },
+        {
+          "name": "question2",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "name": "q1_score",
+          "value": "3"
+        },
+        {
+          "name": "q1_shaded",
+          "value": "1"
+        },
+        {
+          "dataType": "@sys.duration",
+          "name": "duration",
+          "value": "$duration",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        },
+        {
+          "title": "Over the last 2 weeks, how often have you been feeling down, depressed, or hopeless?",
+          "replies": [
+            "Never",
+            "Few days",
+            "7+ days",
+            "Everyday"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

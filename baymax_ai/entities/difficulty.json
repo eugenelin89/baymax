@@ -1,0 +1,33 @@
+{
+  "id": "6151b994-4d68-46f7-b36b-454eb5504033",
+  "name": "difficulty",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Not at all",
+      "synonyms": [
+        "Not at all"
+      ]
+    },
+    {
+      "value": "Somewhot",
+      "synonyms": [
+        "Somewhot"
+      ]
+    },
+    {
+      "value": "Very",
+      "synonyms": [
+        "Very"
+      ]
+    },
+    {
+      "value": "Extremely",
+      "synonyms": [
+        "Extremely"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

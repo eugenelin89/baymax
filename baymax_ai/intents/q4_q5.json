@@ -1,0 +1,107 @@
+{
+  "userSays": [
+    {
+      "id": "577d280f-7a91-48ab-9ab6-25a3ce308590",
+      "data": [
+        {
+          "text": "everyday",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "919fdca6-e264-402b-bd68-d0bd7bcb3fac",
+      "data": [
+        {
+          "text": "a week",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f351d0d0-02d5-4809-91e1-1e5ab38e2336",
+      "data": [
+        {
+          "text": "few days",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "682ef993-f58e-4ab8-8975-96d82643e5b7",
+      "data": [
+        {
+          "text": "never",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ef357c6b-04db-452e-9b04-66a580076f60",
+  "name": "q4_q5",
+  "auto": true,
+  "contexts": [
+    "q4"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "q4",
+      "affectedContexts": [
+        {
+          "name": "q5",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@ans",
+          "name": "ans",
+          "value": "$ans",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        },
+        {
+          "title": "(q5) Over the last 2 weeks, how often have you been bothered by poor appetite or overeating?",
+          "replies": [
+            "never",
+            "few days",
+            "a week",
+            "everyday"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "q5"
+    }
+  ]
+}

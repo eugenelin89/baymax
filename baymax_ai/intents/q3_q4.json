@@ -1,0 +1,107 @@
+{
+  "userSays": [
+    {
+      "id": "d00a5700-1e72-4e58-849f-2350148c54a4",
+      "data": [
+        {
+          "text": "everyday",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4f8a512f-135f-4371-a147-f7816b88fdc7",
+      "data": [
+        {
+          "text": "a week",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "4b02aea4-9943-4907-b72b-d17b0347688d",
+      "data": [
+        {
+          "text": "few days",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "97e2975e-7b4e-43d3-944e-f264da5a0ea7",
+      "data": [
+        {
+          "text": "never",
+          "alias": "ans",
+          "meta": "@ans",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ecdb25b0-04da-427b-9eac-c2d3ba948983",
+  "name": "q3_q4",
+  "auto": true,
+  "contexts": [
+    "q3"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "q3",
+      "affectedContexts": [
+        {
+          "name": "q4",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@ans",
+          "name": "ans",
+          "value": "$ans",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        },
+        {
+          "title": "(q4) Over the last 2 weeks, how often have you been feeling tired or having little energy?",
+          "replies": [
+            "never",
+            "few days",
+            "a week",
+            "everyday"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "q4"
+    }
+  ]
+}

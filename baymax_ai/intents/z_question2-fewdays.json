@@ -1,0 +1,272 @@
+{
+  "userSays": [
+    {
+      "id": "a4f37863-3e96-4d6e-a841-cdaefa6d15b1",
+      "data": [
+        {
+          "text": "3 to 5 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c419b7e5-9dfd-42fb-899c-ffe29399b901",
+      "data": [
+        {
+          "text": "2 to 5 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1ef1285e-dd2c-4f5c-b0bb-0f5b4e05a925",
+      "data": [
+        {
+          "text": "1 to 3 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "196ecdbe-2497-4c74-9892-649962d5b088",
+      "data": [
+        {
+          "text": "1 to 2 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0f63553b-5ced-4f05-8e20-476ad10f9d7b",
+      "data": [
+        {
+          "text": "5 or 6 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e3e574d2-920b-463c-a970-57b5a0f84e75",
+      "data": [
+        {
+          "text": "4 or 5 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "44cc1b66-3b90-47f2-b8d9-8142b85777ac",
+      "data": [
+        {
+          "text": "3 or 4 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f4cdd59a-c9a0-4080-bfa6-d845de30aa3d",
+      "data": [
+        {
+          "text": "2 or 3 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9266edca-6716-4b8a-97a1-0f85545e17f9",
+      "data": [
+        {
+          "text": "6 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "15f49a01-2def-497d-bea4-19235dbfb2e7",
+      "data": [
+        {
+          "text": "5 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2fa9e299-94cc-4152-b206-d91777c727f9",
+      "data": [
+        {
+          "text": "4 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "20189832-244e-44f0-ba47-d40c17e332c0",
+      "data": [
+        {
+          "text": "3 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0625f8a4-5c15-4933-b589-233950bbd056",
+      "data": [
+        {
+          "text": "2 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a28da7ad-2dad-4b9d-ba9b-14d03c14a7eb",
+      "data": [
+        {
+          "text": "1 day",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "28581ebf-c0bc-4a3e-9ab2-2d2846eeef92",
+      "data": [
+        {
+          "text": "some days"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "06a0c331-1e8f-4666-b6e8-360763b6c1aa",
+      "data": [
+        {
+          "text": "few days"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "319ce3c1-f08c-4485-a585-d2a4b859f1bc",
+      "data": [
+        {
+          "text": "a few days",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6a3fe26d-0da7-4ab5-b3e3-1be36a1550d2",
+  "name": "z_question2-fewdays",
+  "auto": true,
+  "contexts": [
+    "question2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "question2",
+          "lifespan": 5
+        },
+        {
+          "name": "question3",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "name": "q2_score",
+          "value": "1"
+        },
+        {
+          "name": "q2_shaded",
+          "value": "0"
+        },
+        {
+          "dataType": "@sys.duration",
+          "name": "duration",
+          "value": "$duration",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "title": "Over the last 2 weeks, how often have you been feeling down, depressed, or hopeless?",
+          "replies": [
+            "Never",
+            "Few days",
+            "7+ days",
+            "Everyday"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

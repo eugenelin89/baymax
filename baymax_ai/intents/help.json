@@ -1,0 +1,55 @@
+{
+  "userSays": [
+    {
+      "id": "330e111d-9019-4dba-988a-3264c58593e0",
+      "data": [
+        {
+          "text": "help me please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b0080c47-bb2f-4400-8d2d-8b4d50de1301",
+      "data": [
+        {
+          "text": "I need help"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d316b5dc-d8cd-433b-afb7-d369b93e6b7f",
+  "name": "help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "help",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "title": "I can help! First, may I ask a few questions?",
+          "replies": [
+            "Ok",
+            "Go away"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

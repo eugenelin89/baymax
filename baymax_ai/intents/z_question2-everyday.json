@@ -1,0 +1,114 @@
+{
+  "userSays": [
+    {
+      "id": "7e2ed0b8-e707-439b-a69b-c3266324bc5f",
+      "data": [
+        {
+          "text": "14 days",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "97dd6d7b-b865-49b8-a4e1-6af2f8052709",
+      "data": [
+        {
+          "text": "2 weeks",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "431bcd99-c262-403f-990a-0bf7b735eb95",
+      "data": [
+        {
+          "text": "always"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4141fb25-2935-4ba7-84ba-e0801f39cee3",
+      "data": [
+        {
+          "text": "everyday"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2afac772-54db-4ca8-b6a6-142623348412",
+      "data": [
+        {
+          "text": "All the time"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "3f54d65e-5e4a-4baa-8f85-c8bed65c4d63",
+  "name": "z_question2-everyday",
+  "auto": true,
+  "contexts": [
+    "question2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "question2",
+          "lifespan": 5
+        },
+        {
+          "name": "question3",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "name": "q2_score",
+          "value": "3"
+        },
+        {
+          "name": "q2_shaded",
+          "value": "1"
+        },
+        {
+          "dataType": "@sys.duration",
+          "name": "duration",
+          "value": "$duration",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "title": "Over the last 2 weeks, how often have you been feeling down, depressed, or hopeless?",
+          "replies": [
+            "Never",
+            "Few days",
+            "7+ days",
+            "Everyday"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
