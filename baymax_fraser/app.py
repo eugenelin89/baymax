@@ -49,7 +49,10 @@ def processRequest(req):
     sender_msg = req.get("originalRequest").get("data").get("message").get("text")
     response_msg = req.get("result").get("fulfillment").get("speech")
     timestamp = req.get("timestamp")
+    action = req.get("result").get("action")
+    parameters = req.get("result").get("parameters")
     tasks.store_dialog.delay(timestamp, sender_id, sender_msg, response_msg)
+    tasks.process_user_response.delay(timestamp, sender_id, action, parameters)
     if "smalltalk" in req.get("result").get("action"):
         speech = req.get("result").get("fulfillment").get("speech")
         return {"speech": speech, "displayText":speech }

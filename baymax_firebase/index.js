@@ -48,6 +48,13 @@ router.route('/message')
         res.json(body);
 });
 
+router.route('/score')
+    .get(function(req, res){})
+    .post(function(req, res){
+        var body = req.body
+        var ref = db.ref("scores/"+body["sender_id"]+"/"+body["question"]+"/");
+        ref.set(body);
+    });
 
 // Express Config
 // ==============
