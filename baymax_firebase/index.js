@@ -3,7 +3,7 @@ var app = express();
 var bodyParser = require('body-parser');
 var router = express.Router();              // get an instance of the express Router
 var admin = require("firebase-admin");
-
+var request = require("request");
 
 var serviceAccount = require("./baymax_key.json");
 
@@ -49,12 +49,37 @@ router.route('/message')
 });
 
 router.route('/score')
-    .get(function(req, res){})
+    .get(function(req, res){
+        sender_id = req.query['sender_id'];
+        var ref = db.ref("scores/"+sender_id+"/");
+        ref.once("value", function(data){
+            res.json(data.val());
+        });
+    })
     .post(function(req, res){
         var body = req.body
         var ref = db.ref("scores/"+body["sender_id"]+"/"+body["question"]+"/");
         ref.set(body);
     });
+
+router.route('/profile')
+    .get(function(req, res){
+        sender_id = req.query['sender_id'];
+        token = process.env.FB_ACCESS_TOKEN;
+ 
+        request({
+            url: 'https://graph.facebook.com/v2.6/'+sender_id+'?fields=first_name,last_name,profile_pic,locale,timezone,gender&access_token='+token,
+            method: 'GET',
+            }, function(error, response, body) {
+                if (error) {
+                    console.log('Error getting FB Profile: ', error);
+                } else if (response.body.error) {
+                    console.log('Error: ', response.body.error);
+                }else{
+                    res.json(JSON.parse(body));
+                }
+        });
+    })
 
 // Express Config
 // ==============
