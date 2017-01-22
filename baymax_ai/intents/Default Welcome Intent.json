@@ -14,11 +14,10 @@
         {
           "type": 0,
           "speech": [
-            "Hi!",
-            "Hello!",
-            "Good day!",
-            "Greetings!",
-            "Hello. I am Baymax, your personal healthcare companion."
+            "Hi! I am Mia. When the world looks grey, I\u0027m your friend!",
+            "Good day! I am Mia. When the world looks grey, I\u0027m your friend!",
+            "Greetings! I am Mia. When the world looks grey, I\u0027m your friend!",
+            "Hello, I am Mia. When the world looks grey, I\u0027m your friend!"
           ]
         }
       ]
