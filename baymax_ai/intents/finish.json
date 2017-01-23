@@ -1,0 +1,78 @@
+{
+  "userSays": [
+    {
+      "id": "ce76a166-724b-4950-afe3-6489f65b8460",
+      "data": [
+        {
+          "text": "alright"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a9402f80-8867-420d-92f0-0216c815058d",
+      "data": [
+        {
+          "text": "good bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "47d9aa9e-79c7-4f6e-997f-2cadf5e4daf8",
+      "data": [
+        {
+          "text": "bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ae6baabf-b754-4e83-b706-1d0bd1d1d57c",
+      "data": [
+        {
+          "text": "thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e1a135f4-dcfe-4a32-8378-c7684e7c7289",
+      "data": [
+        {
+          "text": "ok"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4823360d-d2ee-4788-8940-e2ea7a297c37",
+  "name": "finish",
+  "auto": true,
+  "contexts": [
+    "finish"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Take care! Please check back with me soon!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

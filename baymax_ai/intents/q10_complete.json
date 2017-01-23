@@ -1,0 +1,97 @@
+{
+  "userSays": [
+    {
+      "id": "f5ec82df-b0bc-4b65-91de-f42e96fd676d",
+      "data": [
+        {
+          "text": "extremely",
+          "alias": "difficulty",
+          "meta": "@difficulty",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f3ac1560-7cf1-4974-8af7-138e0192e8ab",
+      "data": [
+        {
+          "text": "very",
+          "alias": "difficulty",
+          "meta": "@difficulty",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "da146be1-ad21-46aa-89ec-074ba2ef680e",
+      "data": [
+        {
+          "text": "somewhat",
+          "alias": "difficulty",
+          "meta": "@difficulty",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6fd7025d-59be-4bf9-a435-f7e53aa9e917",
+      "data": [
+        {
+          "text": "not at all",
+          "alias": "difficulty",
+          "meta": "@difficulty",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "06ac0a39-324a-435a-ae7b-195d272611d5",
+  "name": "q10_complete",
+  "auto": true,
+  "contexts": [
+    "q10"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "q10",
+      "affectedContexts": [
+        {
+          "name": "collect",
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@difficulty",
+          "name": "difficulty",
+          "value": "$difficulty",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "complete"
+    }
+  ]
+}

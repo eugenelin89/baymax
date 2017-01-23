@@ -63,7 +63,12 @@
     {
       "resetContexts": false,
       "action": "q9",
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "q10",
+          "lifespan": 2
+        }
+      ],
       "parameters": [
         {
           "dataType": "@ans",
@@ -75,7 +80,7 @@
       "messages": [
         {
           "type": 0,
-          "speech": []
+          "speech": "Give me about 30 seconds to look at your answers..."
         }
       ]
     }

@@ -1,0 +1,116 @@
+{
+  "userSays": [
+    {
+      "id": "0e9d29a1-52f2-4f43-8597-f43b39d203fa",
+      "data": [
+        {
+          "text": "my "
+        },
+        {
+          "text": "mobile phone",
+          "alias": "contact",
+          "meta": "@contact",
+          "userDefined": false
+        },
+        {
+          "text": " is"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6a413ec7-eda8-40a6-9c16-851cb42a0c38",
+      "data": [
+        {
+          "text": "my "
+        },
+        {
+          "text": "cell phone",
+          "alias": "contact",
+          "meta": "@contact",
+          "userDefined": false
+        },
+        {
+          "text": " is"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "30eceb97-9292-4c72-8ead-df2ad6a1d7d2",
+      "data": [
+        {
+          "text": "my "
+        },
+        {
+          "text": "email",
+          "alias": "contact",
+          "meta": "@contact",
+          "userDefined": false
+        },
+        {
+          "text": " is"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1c6336cd-6738-441d-9c03-1fa0fe382456",
+      "data": [
+        {
+          "text": "My "
+        },
+        {
+          "text": "phone",
+          "alias": "contact",
+          "meta": "@contact",
+          "userDefined": false
+        },
+        {
+          "text": " number is"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b030e006-d806-496c-8ef9-9778bb36ca60",
+  "name": "submit_contact",
+  "auto": true,
+  "contexts": [
+    "collect"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "finish",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@contact",
+          "name": "contact",
+          "value": "$contact",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Got it! A very nice person will get in touch with you! In the mean time, please keep in close touch with me!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

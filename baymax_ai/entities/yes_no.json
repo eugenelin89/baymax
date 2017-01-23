@@ -1,0 +1,24 @@
+{
+  "id": "7864a6ab-4e34-4060-82e6-72242e7fdac4",
+  "name": "yes_no",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "no",
+      "synonyms": [
+        "no",
+        "no, please go away",
+        "no way"
+      ]
+    },
+    {
+      "value": "yes",
+      "synonyms": [
+        "yes",
+        "yes please"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

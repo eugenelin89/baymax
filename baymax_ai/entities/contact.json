@@ -1,0 +1,29 @@
+{
+  "id": "2817e7c5-7421-4b46-b230-8fc2d616ecc3",
+  "name": "contact",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "email",
+      "synonyms": [
+        "email",
+        "e-mail"
+      ]
+    },
+    {
+      "value": "phone",
+      "synonyms": [
+        "phone"
+      ]
+    },
+    {
+      "value": "cell phone",
+      "synonyms": [
+        "cell phone",
+        "mobile phone"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

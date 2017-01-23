@@ -1,0 +1,80 @@
+{
+  "userSays": [
+    {
+      "id": "5e4e44d1-0920-4a08-bfff-b20632766b60",
+      "data": [
+        {
+          "text": "no way",
+          "alias": "yes_no",
+          "meta": "@yes_no",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a7837da3-4008-4898-a5ec-cd9b7f23725d",
+      "data": [
+        {
+          "text": "no, please go away",
+          "alias": "yes_no",
+          "meta": "@yes_no",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6ebd9cd0-5665-4dda-b992-61c4c436a569",
+      "data": [
+        {
+          "text": "yes please",
+          "alias": "yes_no",
+          "meta": "@yes_no",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c9f0c0e7-960f-4926-915e-e2c417d01fe8",
+  "name": "start_collect",
+  "auto": true,
+  "contexts": [
+    "collect"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "start_collect",
+      "affectedContexts": [
+        {
+          "name": "collect",
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@yes_no",
+          "name": "yes_no",
+          "value": "$yes_no",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
